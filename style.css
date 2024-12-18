@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #c7d2d9;
+  font-family: "Raleway", sans-serif;
+}
+
+/* header */
+header {
+  background-color: #8c240d;
+  color: #c7d2d9;
+  padding: 1.5rem;
+  border-bottom: 1px dotted #0d0d0d;
+}
+
+/* text */
+h1 {
+  margin-bottom: 10px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+p,
+li {
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+li {
+  margin-left: 20px;
+  list-style: square;
+}
+
+/* layout */
+section {
+  padding: 2.5rem;
+  border-bottom: 1px dotted #0d0d0d;
+}
+
+section#about {
+  min-height: 400px;
+  background-image: url(https://placedog.net/samples/27.jpg?630512);
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+#about-info {
+  background-color: #c7d2d9a5;
+  width: 50%;
+  /* float: right; */
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+/* gallery */
+#gallery {
+  background-color: #fff;
+}
+img {
+  width: 400px;
+}
+figure {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* form */
+button {
+  padding: 10px 30px;
+  background-color: #8c240d;
+  color: #c7d2d9;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #622213;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #0d0d0d;
+}
+
+footer {
+  background-color: #0d0d0d;
+  color: #c7d2d9;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small screens */
+  section#about {
+    text-align: center;
+    min-height: inherit;
+  }
+  #about-info {
+    width: 100%;
+    /* float: right; */
+    padding: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small screens */
+}
+
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* CSS rules for medium screens */
+}
+
+/* Large devices (laptops/desktops, 992px to 1200px) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /* CSS rules for large screens */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  /* CSS rules for extra large screens */
+}
